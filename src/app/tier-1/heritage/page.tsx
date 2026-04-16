@@ -199,10 +199,10 @@ export default function HeritagePage() {
             Discover the Collection
           </h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/shop" className="btn-primary">
+            <Link href="/tier-1/shop" className="btn-primary">
               Shop Now
             </Link>
-            <Link href="/contact" className="btn-outline">
+            <Link href="/tier-1/contact" className="btn-outline">
               Contact the Atelier
             </Link>
           </div>

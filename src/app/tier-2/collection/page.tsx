@@ -56,7 +56,7 @@ export default function Collection() {
                     layoutId={`image-${w.id}`}
                     src={w.src} 
                     alt={w.name} 
-                    className={`w-[120%] h-[120%] object-cover group-hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.25,0.46,0.45,0.94)] mix-blend-multiply ${w.css}`} 
+                    className={`w-[120%] h-[120%] object-cover group-hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.25,0.46,0.45,0.94)] ${w.css}`} 
                   />
               </motion.div>
               

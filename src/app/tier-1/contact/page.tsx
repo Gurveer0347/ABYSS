@@ -253,7 +253,7 @@ export default function ContactPage() {
                     <input type="checkbox" required id="consent" className="mt-1 accent-burgundy w-4 h-4" />
                     <label htmlFor="consent" className="font-sans text-xs text-brand-black/55 tracking-wide leading-relaxed cursor-pointer">
                       I agree to ABYSS processing my personal data in accordance with the{' '}
-                      <a href="/legal/privacy" className="text-burgundy hover:underline">Privacy Policy</a>.
+                      <a href="/tier-1" className="text-burgundy hover:underline">Privacy Policy</a>.
                     </label>
                   </div>
 

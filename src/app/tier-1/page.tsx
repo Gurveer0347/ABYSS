@@ -34,7 +34,7 @@ export default function HomePage() {
               <h2 className="section-title">The Edit</h2>
             </div>
             <Link
-              href="/shop"
+              href="/tier-1/shop"
               className="hidden sm:flex items-center gap-2 font-sans text-xs tracking-luxury uppercase text-brand-black/60 hover:text-burgundy transition-colors group"
             >
               View All
@@ -49,7 +49,7 @@ export default function HomePage() {
           </div>
 
           <div className="mt-12 text-center sm:hidden">
-            <Link href="/shop" className="btn-outline">
+            <Link href="/tier-1/shop" className="btn-outline">
               View All Pieces
             </Link>
           </div>
@@ -74,7 +74,7 @@ export default function HomePage() {
             <h2 className="font-serif text-4xl lg:text-6xl text-cream leading-tight max-w-2xl mx-auto">
               Crafted for those who understand the value of restraint.
             </h2>
-            <Link href="/shop" className="btn-primary mt-10 inline-flex">
+            <Link href="/tier-1/shop" className="btn-primary mt-10 inline-flex">
               Explore the Collection
             </Link>
           </div>

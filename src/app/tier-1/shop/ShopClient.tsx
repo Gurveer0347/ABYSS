@@ -122,7 +122,7 @@ export default function ShopClient({ initialCategory }: Props) {
           <p className="font-sans text-xs text-brand-black/40 mt-2 mb-6 tracking-wide">
             Our ateliers accept bespoke commissions for qualified clients.
           </p>
-          <a href="/contact" className="btn-outline">
+          <a href="/tier-1/contact" className="btn-outline">
             Enquire
           </a>
         </div>

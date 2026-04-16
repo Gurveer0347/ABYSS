@@ -177,7 +177,7 @@ export default function CheckoutPage() {
                     {items.length === 0 ? (
                       <div className="text-center py-16">
                         <p className="font-serif text-xl text-brand-black/40 mb-4">Your cart is empty</p>
-                        <Link href="/shop" className="btn-primary">
+                        <Link href="/tier-1/shop" className="btn-primary">
                           Continue Shopping
                         </Link>
                       </div>
@@ -409,9 +409,9 @@ export default function CheckoutPage() {
                       </motion.button>
                       <p className="font-sans text-[10px] text-brand-black/35 tracking-wide text-center">
                         By placing your order you agree to our{' '}
-                        <a href="/legal/terms" className="text-burgundy hover:underline">Terms of Service</a>
+                        <a href="/tier-1" className="text-burgundy hover:underline">Terms of Service</a>
                         {' '}and{' '}
-                        <a href="/legal/privacy" className="text-burgundy hover:underline">Privacy Policy</a>.
+                        <a href="/tier-1" className="text-burgundy hover:underline">Privacy Policy</a>.
                       </p>
                     </form>
                   </motion.div>
@@ -464,10 +464,10 @@ export default function CheckoutPage() {
                       </div>
                     </div>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                      <Link href="/shop" className="btn-primary">
+                      <Link href="/tier-1/shop" className="btn-primary">
                         Continue Shopping
                       </Link>
-                      <Link href="/contact" className="btn-outline">
+                      <Link href="/tier-1/contact" className="btn-outline">
                         Contact Us
                       </Link>
                     </div>

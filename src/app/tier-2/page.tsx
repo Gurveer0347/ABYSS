@@ -37,7 +37,7 @@ export default function Tier2() {
         className="relative h-[90vh] w-full flex flex-col items-center justify-center overflow-hidden"
       >
         {/* Layer 1: The standard visible luxury watch image (Base Layer) */}
-        <div className="absolute inset-0 flex items-center justify-center opacity-90 scale-[0.8] md:scale-100 mix-blend-multiply">
+        <div className="absolute inset-0 flex items-center justify-center opacity-90 scale-[0.8] md:scale-100">
            <img src="/assets/watch.png" alt="AURA Platinum Watch" className="w-full h-full object-contain pointer-events-none drop-shadow-2xl" />
         </div>
 

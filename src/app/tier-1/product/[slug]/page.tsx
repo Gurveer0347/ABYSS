@@ -45,7 +45,7 @@ export default async function ProductPage({ params }: Props) {
         <div className="flex items-center gap-2 font-sans text-[10px] tracking-luxury uppercase text-brand-black/40">
           <Link href="/" className="hover:text-burgundy transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/shop" className="hover:text-burgundy transition-colors">Shop</Link>
+          <Link href="/tier-1/shop" className="hover:text-burgundy transition-colors">Shop</Link>
           <span>/</span>
           <Link href={`/shop?category=${product.category}`} className="hover:text-burgundy transition-colors">
             {product.category}
@@ -78,7 +78,7 @@ export default async function ProductPage({ params }: Props) {
                 <h2 className="font-serif text-2xl text-brand-black">Curated For You</h2>
               </div>
               <Link
-                href="/shop"
+                href="/tier-1/shop"
                 className="hidden sm:flex items-center gap-2 font-sans text-xs tracking-luxury uppercase text-brand-black/50 hover:text-burgundy transition-colors group"
               >
                 All Pieces
