@@ -63,3 +63,29 @@ The PDP must mirror elite fashion houses and include:
 - **Framework**: **Next.js (React)** for optimal performance, routing, and robust component architecture.
 - **Styling**: **Tailwind CSS**.
 - **Animations**: **Framer Motion** (essential for the complex page transitions and layout changes) + **GSAP** (for advanced scroll topography).
+
+## Deployment & Hosting Plan (Vercel & GoDaddy)
+
+To allow your clients to experience the full ABYSS portfolio, we will perform the following workflow:
+
+### User Review Required
+> [!IMPORTANT]
+> The steps below will deploy your code to production. I will execute the Git instructions on your behalf once you approve this plan. After deployment, you will need to perform the manual steps in Vercel to attach your GoDaddy domain.
+
+### 1. Code Preparation and Push
+We have extensive local changes across Tier 1, 2, and 3 layouts, pages, and components.
+- [NEW] All `src/app/tier-*/` files
+- [NEW] `src/components/layout/CustomCursor.tsx`
+- [MODIFY] `package.json`, `tailwind.config.ts`, `src/app/page.tsx`
+**Action:** I will commit all untracked and modified files to the `main` branch and push them to your GitHub repository (`github.com/abdababa/abyss.git`).
+
+### 2. Vercel Integration
+Since your repository already has Vercel linked (or we will link it), pushing to the `main` branch will automatically trigger a production build. 
+**Verification:** The code has been locally verified using `npm run build` to ensure it compiles flawlessly.
+
+### 3. Custom Domain Configuration (Manual by USER)
+Once Vercel finishes the build, you will connect your GoDaddy domain:
+1. Go to your Vercel Dashboard -> Select `abyss` project -> **Settings** -> **Domains**.
+2. Add your custom GoDaddy domain (e.g., `abyss-luxury.com`).
+3. Vercel will provide Nameservers (e.g., `ns1.vercel-dns.com` and `ns2.vercel-dns.com`) or an A Record/CNAME.
+4. Log in to GoDaddy, navigate to DNS settings, and update the Nameservers or add the A/CNAME records as instructed by Vercel. Ensure SSL enables automatically.

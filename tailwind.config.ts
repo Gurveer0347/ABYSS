@@ -21,6 +21,16 @@ const config: Config = {
           muted: '#C8B99A',
           deep: '#B8A88A',
         },
+        // Tier 2: AURA
+        espresso: '#0F0C08',
+        obsidian: '#121212',
+        champagne: '#D4AF37',
+        rosegold: '#B76E79',
+        // Tier 3: VISTA
+        stone: '#F4F4F0',
+        'slate-deep': '#2C3E50',
+        'emerald-deep': '#0A231A',
+        // Base
         'brand-black': '#0A0406',
         'brand-white': '#FAF7F2',
       },
